@@ -43,9 +43,9 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (context) => SeatCubit(),
         ),
-        // BlocProvider(
-        //   create: (context) => TransactionCubit(),
-        // ),
+        BlocProvider(
+          create: (context) => TransactionCubit(),
+        ),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
